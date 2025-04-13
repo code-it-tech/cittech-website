@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Code Guruva</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11117491598"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-11117491598');
+</script>
+<script src="https://app.wotnot.io/chat-widget/5BfpdbRGbAus050526097022aRBJtVLD.js" defer></script>
+</head>
+
+<body>
+    <script src="https://app.wotnot.io/chat-widget/5BfpdbRGbAus050526097022aRBJtVLD.js" defer></script>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start 
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <img src="img/logo.png" />
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="courses.html" class="nav-item nav-link active">Courses</a>
+                <!-- <a href="contact.html" class="nav-item nav-link">Contact</a> 
+            </div>
+            <a href="contact.html" class="btn btn-danger py-4 px-lg-5 d-none d-lg-block">Join Now<i class="fa fa-arrow-right ms-3"></i></a>
+        </div>
+    </nav>
+    Navbar End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary py-5 mb-5 page-header">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <h1 class="display-3 text-white animated slideInDown">IT Courses</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                            <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Courses</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- Categories Start -->
+    <!-- <div class="container-xxl py-5 category">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Categories</h6>
+                <h1 class="mb-5">Courses Categories</h1>
+            </div>
+            <div class="row g-3">
+                <div class="col-lg-7 col-md-6">
+                    <div class="row g-3">
+                        <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
+                            <a class="position-relative d-block overflow-hidden" href="">
+                                <img class="img-fluid" src="img/cat-1.jpg" alt="">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                                    <h5 class="m-0">Web Design</h5>
+                                    <small class="text-primary">49 Courses</small>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
+                            <a class="position-relative d-block overflow-hidden" href="">
+                                <img class="img-fluid" src="img/cat-2.jpg" alt="">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                                    <h5 class="m-0">Graphic Design</h5>
+                                    <small class="text-primary">49 Courses</small>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
+                            <a class="position-relative d-block overflow-hidden" href="">
+                                <img class="img-fluid" src="img/cat-3.jpg" alt="">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                                    <h5 class="m-0">Video Editing</h5>
+                                    <small class="text-primary">49 Courses</small>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
+                    <a class="position-relative d-block h-100 overflow-hidden" href="">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/cat-4.jpg" alt="" style="object-fit: cover;">
+                        <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin:  1px;">
+                            <h5 class="m-0">Online Marketing</h5>
+                            <small class="text-primary">49 Courses</small>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Categories Start -->  
+
+    <!-- Courses Start -->
+    <div class="container-xxl py-2">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Courses</h6>
+                <h1 class="mb-5">Online Courses</h1>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/webdesign-bgnr-advnce.jpg" alt="">
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <a href="HTML-Website-Designing-Course.html" class="flex-shrink-0 btn btn-sm btn-info px-3 bg-warning" style="border-radius: 30px 30px 30px 30px;">Read More</a>
+                                <!-- <a href="contact.html" class="flex-shrink-0 btn btn-sm btn-danger px-3" style="border-radius: 0px 30px 30px 0px;">Join Now</a> -->
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <!-- <h3 class="mb-0">$149.00</h3>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small>(123)</small>
+                            </div> -->
+                            <h5 class="mb-4">HTML,Website Designing Course</h5>
+                        </div>
+                        <div class="d-flex border-top">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>CGVA</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>45 Hrs</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>7019 Students</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/reactjs-ui.jpg" alt="">
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <a href="React-JS-UI-Development-Course.html" class="flex-shrink-0 btn btn-sm btn-info px-3 border-end bg-warning" style="border-radius: 30px 30px 30px 30px;">Read More</a>
+                                <!-- <a href="contact.html" class="flex-shrink-0 btn btn-sm btn-danger px-3" style="border-radius: 0 30px 30px 0;">Join Now</a> -->
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <!-- <h3 class="mb-0">$149.00</h3>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small>(123)</small> 
+                            </div>-->
+                            <h5 class="mb-4">React JS UI Development Course</h5>
+                        </div>
+                        <div class="d-flex border-top">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>CGVA</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>45Hrs</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>4029 Students</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/ui-ux-course.jpg" alt="">
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <a href="UI-UX-Course.html" class="flex-shrink-0 btn btn-sm btn-info px-3 border-end bg-warning" style="border-radius: 30px 30px 30px 30px;">Read More</a>
+                                <!-- <a href="contact.html" class="flex-shrink-0 btn btn-sm btn-danger px-3" style="border-radius: 0 30px 30px 0;">Join Now</a> -->
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <!-- <h3 class="mb-0">$149.00</h3>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small>(123)</small>
+                            </div> -->
+                            <h5 class="mb-4">UI UX Course</h5>
+                        </div>
+                        <div class="d-flex border-top">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>CGVA</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>40 Hrs</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>1079 Students</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Courses End -->
+    
+     <!-- Courses Start -->
+     <div class="container-xxl py-2">
+        <div class="container">
+            <!-- <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Courses</h6>
+                <h1 class="mb-5">Popular Courses</h1>
+            </div> -->
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/wp.jpg" alt="">
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <a href="wordpress-course.html" class="flex-shrink-0 btn btn-sm btn-info px-3 border-end bg-warning" style="border-radius: 30px 30px 30px 30px;">Read More</a>
+                                <!-- <a href="contact.html" class="flex-shrink-0 btn btn-sm btn-danger px-3" style="border-radius: 0px 30px 30px 0px;">Join Now</a> -->
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <!-- <h3 class="mb-0">$149.00</h3>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small>(123)</small>
+                            </div> -->
+                            <h5 class="mb-4">Word Press Course</h5>
+                            <!-- <br /> -->
+                        </div>
+                        <div class="d-flex border-top">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>CGVA</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>45 Hrs</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>799 Students</small>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/angularjs.jpg"">
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <a href="angularCourse.html" class="flex-shrink-0 btn btn-sm btn-info px-3 border-end bg-warning"  style="border-radius: 30px 30px 30px 30px;">Read Now</a>
+                                <!-- <a href="contact.html" class="flex-shrink-0 btn btn-sm btn-danger px-3" style="border-radius: 0px 30px 30px 0px;">Join Now</a> -->
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <!-- <h3 class="mb-0">$149.00</h3>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small>(123)</small> 
+                            </div>-->
+                            <h5 class="mb-4">Angular JS Course</h5> 
+                        </div>
+                        <div class="d-flex border-top">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>CGVA</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>30Hrs</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>1019 Students</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/htmlCss-advanced.jpg" alt="">
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <a href="javascript-jses6.html" class="flex-shrink-0 btn btn-sm btn-info px-3 border-end bg-warning" style="border-radius: 30px 30px 30px 30px;">Read More</a>
+                                <!-- <a href="contact.html" class="flex-shrink-0 btn btn-sm btn-danger px-3" style="border-radius: 0 30px 30px 0;">Join Now</a> -->
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <!-- <h3 class="mb-0">$149.00</h3>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small>(123)</small>
+                            </div> -->
+                            <h5 class="mb-4">Java Course</h5> 
+                        </div>
+                        <div class="d-flex border-top">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>CGVA</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>50 Hrs</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>749 Students</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Courses End -->   
+
+     <!-- Courses Start -->
+     <div class="container-xxl py-2">
+        <div class="container">
+            <!-- <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Courses</h6>
+                <h1 class="mb-5">Popular Courses</h1>
+            </div> -->
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/php-web-development.jpg" alt="">
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end bg-warning" style="border-radius: 30px 30px 30px 30px;">Read More</a>
+                                <!-- <a href="contact.html" class="flex-shrink-0 btn btn-sm btn-danger px-3" style="border-radius: 0px 30px 30px 0px;">Join Now</a> -->
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <!-- <h3 class="mb-0">$149.00</h3>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small>(123)</small>
+                            </div> -->
+                            <h5 class="mb-4">Python Course</h5>
+                        </div>
+                        <div class="d-flex border-top">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>CGVA</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>40 Hrs</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>799 Students</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/nodejsCourse.jpg">
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <a href="" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end bg-warning" style="border-radius: 30px 30px 30px 30px;">Read More</a>
+                                <!-- <a href="contact.html" class="flex-shrink-0 btn btn-sm btn-danger px-3" style="border-radius: 0 30px 30px 0;">Join Now</a> -->
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <!-- <h3 class="mb-0">$149.00</h3>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small>(123)</small> 
+                            </div>-->
+                            <h5 class="mb-4">Node JS Course</h5>
+                        </div>
+                        <div class="d-flex border-top">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>CGVA</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>40Hrs</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>1019 Students</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="course-item bg-light">
+                       
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/js.jpg">
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <a href="" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end bg-warning" style="border-radius: 30px 30px 30px 30px;">Read More</a>
+                                <!-- <a href="contact.html" class="flex-shrink-0 btn btn-sm btn-danger px-3" style="border-radius: 0 30px 30px 0;">Join Now</a> -->
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <!-- <h3 class="mb-0">$149.00</h3>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small>(123)</small> 
+                            </div>-->
+                            <h5 class="mb-4">Laravel Course</h5>
+                        </div>
+                        <div class="d-flex border-top">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>CGVA</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>40Hrs</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>1019 Students</small>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Courses End -->    
+
+    <!-- Courses Start -->
+    <div class="container-xxl py-2">
+        <div class="container">
+            <!-- <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Courses</h6>
+                <h1 class="mb-5">Popular Courses</h1>
+            </div> -->
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/mysql-course.jpg" alt="">
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end bg-warning" style="border-radius: 30px 30px 30px 30px;">Read More</a>
+                                <!-- <a href="contact.html" class="flex-shrink-0 btn btn-sm btn-danger px-3" style="border-radius: 0px 30px 30px 0px;">Join Now</a> -->
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">                            
+                            <h5 class="mb-4">MySQL Course</h5>
+                        </div>
+                        <div class="d-flex border-top">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>CGVA</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>40 Hrs</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>799 Students</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="course-item bg-light">
+
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/angularjs.jpg">
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end bg-warning" style="border-radius: 30px 30px 30px 30px;">Read More</a>
+                                <!-- <a href="contact.html" class="flex-shrink-0 btn btn-sm btn-danger px-3" style="border-radius: 0 30px 30px 0;">Join Now</a> -->
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">                           
+                            <h5 class="mb-4">PHP Course</h5>
+                        </div>
+                        <div class="d-flex border-top">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>CGVA</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>40Hrs</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>1019 Students</small>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="course-item bg-light">
+                       
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/nodejsCourse.jpg">
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end bg-warning" style="border-radius: 30px 30px 30px 30px;">Read More</a>
+                                <!-- <a href="contact.html" class="flex-shrink-0 btn btn-sm btn-danger px-3" style="border-radius: 0 30px 30px 0;">Join Now</a> -->
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <h5 class="mb-4">C , C++ Course</h5>
+                        </div>
+                        <div class="d-flex border-top">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>CGVA</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>40Hrs</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>1019 Students</small>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Courses End -->    
+
+    <!-- Courses Start -->
+    <div class="container-xxl py-2">
+        <div class="container">
+            <!-- <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Courses</h6>
+                <h1 class="mb-5">Popular Courses</h1>
+            </div> -->
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/mysql-course.jpg" alt="">
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end bg-warning" style="border-radius: 30px 30px 30px 30px;">Read More</a>
+                                <!-- <a href="contact.html" class="flex-shrink-0 btn btn-sm btn-danger px-3" style="border-radius: 0px 30px 30px 0px;">Join Now</a> -->
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">                            
+                            <h5 class="mb-4">DTP Course</h5>
+                        </div>
+                        <div class="d-flex border-top">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>CGVA</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>40 Hrs</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>799 Students</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="course-item bg-light">
+
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/angularjs.jpg">
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end bg-warning" style="border-radius: 30px 30px 30px 30px;">Read More</a>
+                                <!-- <a href="contact.html" class="flex-shrink-0 btn btn-sm btn-danger px-3" style="border-radius: 0 30px 30px 0;">Join Now</a> -->
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">                           
+                            <h5 class="mb-4">Computer Fundamentals Course</h5>
+                        </div>
+                        <div class="d-flex border-top">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>CGVA</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>40Hrs</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>1019 Students</small>
+                        </div>
+
+                    </div>
+                </div>
+                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="course-item bg-light">
+                       
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/nodejsCourse.jpg">
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end bg-warning" style="border-radius: 30px 30px 30px 30px;">Read More</a>
+                                <!-- <a href="contact.html" class="flex-shrink-0 btn btn-sm btn-danger px-3" style="border-radius: 0 30px 30px 0;">Join Now</a> -->
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <h5 class="mb-4">Mobile App Development Course</h5>
+                        </div>
+                        <div class="d-flex border-top">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>CGVA</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>40Hrs</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>1019 Students</small>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Courses End -->    
+
+     <!-- Courses Start -->
+     <div class="container-xxl py-2">
+        <div class="container">
+            <!-- <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Courses</h6>
+                <h1 class="mb-5">Popular Courses</h1>
+            </div> -->
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/mysql-course.jpg" alt="">
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end bg-warning" style="border-radius: 30px 30px 30px 30px;">Read More</a>
+                                <!-- <a href="contact.html" class="flex-shrink-0 btn btn-sm btn-danger px-3" style="border-radius: 0px 30px 30px 0px;">Join Now</a> -->
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">                            
+                            <h5 class="mb-4">CodeIgniter Course</h5>
+                        </div>
+                        <div class="d-flex border-top">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>CGVA</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>40 Hrs</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>799 Students</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="course-item bg-light">
+
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/angularjs.jpg">
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end bg-warning" style="border-radius: 30px 30px 30px 30px;">Read More</a>
+                                <!-- <a href="contact.html" class="flex-shrink-0 btn btn-sm btn-danger px-3" style="border-radius: 0 30px 30px 0;">Join Now</a> -->
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">                           
+                            <h5 class="mb-4">MERN Course</h5>
+                        </div>
+                        <div class="d-flex border-top">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>CGVA</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>40Hrs</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>1019 Students</small>
+                        </div>
+
+                    </div>
+                </div>
+                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="course-item bg-light">
+                       
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/nodejsCourse.jpg">
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end bg-warning" style="border-radius: 30px 30px 30px 30px;">Read More</a>
+                                <!-- <a href="contact.html" class="flex-shrink-0 btn btn-sm btn-danger px-3" style="border-radius: 0 30px 30px 0;">Join Now</a> -->
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <h5 class="mb-4">MEAN Course</h5>
+                        </div>
+                        <div class="d-flex border-top">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>CGVA</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>40Hrs</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>1019 Students</small>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Courses End -->  
+
+     <!-- Courses Start -->
+     <div class="container-xxl py-2">
+        <div class="container">
+            <!-- <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Courses</h6>
+                <h1 class="mb-5">Popular Courses</h1>
+            </div> -->
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/mysql-course.jpg" alt="">
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end bg-warning" style="border-radius: 30px 30px 30px 30px;">Read More</a>
+                                <!-- <a href="contact.html" class="flex-shrink-0 btn btn-sm btn-danger px-3" style="border-radius: 0px 30px 30px 0px;">Join Now</a> -->
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">                            
+                            <h5 class="mb-4">Typescript Course</h5>
+                        </div>
+                        <div class="d-flex border-top">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>CGVA</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>40 Hrs</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>799 Students</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="course-item bg-light">
+
+                        <!-- <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/angularjs.jpg">
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end bg-warning" style="border-radius: 30px 30px 30px 30px;">Read More</a>
+                                <a href="contact.html" class="flex-shrink-0 btn btn-sm btn-danger px-3" style="border-radius: 0 30px 30px 0;">Join Now</a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">                           
+                            <h5 class="mb-4">MERN Course</h5>
+                        </div>
+                        <div class="d-flex border-top">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>CGVA</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>40Hrs</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>1019 Students</small>
+                        </div> -->
+
+                    </div>
+                </div>
+                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="course-item bg-light">
+                       
+                        <!-- <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/nodejsCourse.jpg">
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end bg-warning" style="border-radius: 30px 30px 30px 30px;">Read More</a>
+                                <a href="contact.html" class="flex-shrink-0 btn btn-sm btn-danger px-3" style="border-radius: 0 30px 30px 0;">Join Now</a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <h5 class="mb-4">MEAN Course</h5>
+                        </div>
+                        <div class="d-flex border-top">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>CGVA</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>40Hrs</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>1019 Students</small>
+                        </div> -->
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Courses End -->  
+
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="text-center">
+                <h6 class="section-title bg-white text-center text-primary px-3">Testimonial</h6>
+                <h1 class="mb-5">Our Students Say!</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel position-relative">
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-1.jpg" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Hemalatha</h5>
+                    <p>Tamilnadu, India</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">I joined in Code Guruva for React JS Training and Successfully completed React js course , and also i got selected at HCL, as Tech lead. Code Guruva is a best platform to learn React js, Thank you. "</p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-2.jpg" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Karthik</h5>
+                    <p>USA</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">Very professional and job oriented training course provided by mohan sir. Helped a lot in interview preparation and project understanding in real time scenario. Material provided is hierarchical and straightforward easy to understand and learn from scratch. Thank you mohan for a wonderful learning experience</p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-3.jpg" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Rahul</h5>
+                    <p>Delhi, India</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">Trainer is friendly and is flexible with timings, overall training experience was good and trainer also provides us with recorded sessions if required</p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-4.jpg" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Gouthami</h5>
+                    <p>Pune</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">Very easy learning and doubt clearing.many tasks are useful in learing. He is very good in teaching and professional.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+        
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Quick Link</h4>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="">Privacy Policy</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">FAQs & Help</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Contact</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Panjagutta Center, Hyderabad</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 912174 9129</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>connect.cgva@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a> -->
+                        <!-- <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/codeguruva/" target="new"><i class="fab fa-facebook-f"></i></a> -->
+                        <a class="btn btn-outline-light btn-social" href="https://www.youtube.com/@CodeGuruva" target="new"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.linkedin.com/company/code-guruva/" target="new"><i class="fab fa-linkedin-in"></i></a>                    </div>
+                </div>
+                <!-- <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Gallery</h4>
+                    <div class="row g-2 pt-2">
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
+                        </div>
+                    </div>
+                </div> -->
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Our Student Works</h4>
+                    <!-- <p>connect with us for updated newsletter.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>  -->
+                    <a class="btn btn-link" href="https://designrevision.com/demo/shards-dashboard-lite-react/blog-overview" target="_blank">React JS UI</a>
+                    <a class="btn btn-link" href="https://cozy-swan-215d90.netlify.app/" target="_blank">RJS Responsive Website</a>
+                    <a class="btn btn-link" href="https://codeguruvaa.github.io/bootstrap-theme-customization/" target="_blank">Customized Template</a>
+                    <a class="btn btn-link" href="https://react-redux-cart-youtube.netlify.app/" target="_blank">React JS ECommerce UI</a>
+                   
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">Code Guruva</a>, All Right Reserved.
+                    </div>
+                    <!-- <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="">Home</a>
+                            <a href="">Cookies</a>
+                            <a href="">Help</a>
+                            <a href="">FQAs</a>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-secondary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <script src="https://app.wotnot.io/chat-widget/5BfpdbRGbAus050526097022aRBJtVLD.js" defer></script>
+</body>
+
+</html>
